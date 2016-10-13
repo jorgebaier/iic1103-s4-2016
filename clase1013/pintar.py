@@ -14,6 +14,16 @@ def vecinos(mapa,i,j):
     ## completar 
 
 
+def pintar_desde(mapa,i,j,letra,limite):
+    # retorna un mapa en donde una region interior
+    # ha sido completamente pintada con letra
+    # y donde no se han usado más que limite letras para pintar
+    # de no tener exito, retorna una lista vacía
+
+
+    #completar
+
+
 def pretty_print(mapa):
     for linea in mapa:
         print("".join(linea))
